@@ -1,0 +1,24 @@
+{
+  "name": "rickandmorty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"purgecss --css styles/custom.css --content index.html scripts/characters.js -o styles/reduce.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillmann05/rick-mortywiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dillmann05/rick-mortywiki/issues"
+  },
+  "homepage": "https://github.com/dillmann05/rick-mortywiki#readme",
+  "description": ""
+}
